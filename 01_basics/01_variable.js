@@ -23,6 +23,6 @@ console.table({accountId, accountEmail, accountPassword, accountCity, accountSat
 
  /* 
  1) in js mostly use const and let variables
- 2) in old version programmer are use var variable
+ 2) in old version programmer are use var variable */ 
 
    
