@@ -30,4 +30,13 @@ console.log("2"===2); //Output is false
 Check the data type then it is same they convert the value
 */
 
+/* -------------------------------Diffrens between == and === ---------------------------------
+1)== (Loose Equality)---
+'5' == 5 → true (string converted to number)
+null == undefined → true
 
+2)=== (Strict Equality)---
+'5' === 5 → false (different types)
+null === undefined → false
+
+*/
