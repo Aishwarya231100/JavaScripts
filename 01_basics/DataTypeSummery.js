@@ -51,6 +51,48 @@ Object= (native or host and does implement [[Call]])	"function"
 Object= (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 */
 
+//+++++++++++Stack and Heap Memory ++++++++++++++++++++++++++
+/*
+1) Stack - Primitive Data Type ----------- Stack use the copy
+2) Heap - NonPrimitive Data Type -------------- Heap use the Refrens */
+
+/* 1) Stack Eg-
+//I) 
+Let MyYouTubeName = "Aishwarya"
+let anotherName = MyYouTubeName
+console.log(anotherName)
+OUTPUT -- Aishwarya
+
+//II)
+Let MyYouTubeName = "Aishwarya"
+let anotherName = MyYouTubeName
+anotherName = "Aishwarya Patil"
+
+console.log(anotherName)
+OUTPUT -- Aishwarya Patil
+*/
+
+/* 2) Heap Eg- // refren the original value 
+let UserOne ={
+email : "aishwarya@gmail.com";
+Upi: "User@upi";
+}
+
+let userTwo = UserOne // in this user one value allow the user user two value
+
+userTwo email = "aishwaryapatil@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+Output --
+aishwaryapatil@gmail.com
+aishwaryapatil@gmail.com
+*/
+
+
+
+
 
 
 
