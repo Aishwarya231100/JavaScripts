@@ -4,6 +4,7 @@ const repoCount = 50
 // console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); //Use Mostly --In Advanse print this way
+//Template literals are literals delimited with backtick (`) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.
 
 const gameName = new String('hitesh-hc-com') //String Delacrastion 
 
