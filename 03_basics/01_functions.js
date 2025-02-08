@@ -125,7 +125,7 @@ console.log(returnSecondValue(myNewArray));
 // Arrya Object Pass--------------------------
 console.log(returnSecondValue([200, 400, 500, 1000]));
 
-
+*/
 
 
 
