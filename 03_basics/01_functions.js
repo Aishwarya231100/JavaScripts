@@ -65,39 +65,73 @@ function loginUserMessage(username = "sam") // sam value does go to if block bec
 */
 
 
-
-
-
- 
-
-
-
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
+/*
+function calculateCartPrice (...num1) // spered opareter or resat operter 
+{
+return num1
 }
+console.log(calculateCartPrice(200, 400, 500, 2000)) // The output print in array format [200, 400, 500]
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+*/ 
 
+
+/*
+Arrya Index Number Value is Print
+/*
+function calculateCartPrice (val1, val2, ...num1) // spered opareter or resat operter 
+{
+return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 2000)) 
+// The output print is val1 is = 200 and val2 = 400 and rest value in arrya so print 500 and 2000
+
+*/ 
+
+/* 
+Objects pass in functions format 
+
+// User is object
 const user = {
     username: "hitesh",
     prices: 199
 }
 
+//user and anyobject is same but name is diffrens 
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
-// handleObject(user)
+handleObject(user)
+
+// Print in easy way --------
 handleObject({
     username: "sam",
     price: 399
 })
 
+*/
+
+/*
+Arrya In functions
+
 const myNewArray = [200, 400, 100, 600]
 
-function returnSecondValue(getArray){
+function returnSecondValue(getArray){ // The output is 400 beuz 0= 200, 1=400, 2=100, 3=600
     return getArray[1]
 }
 
-// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue(myNewArray));
+
+// Arrya Object Pass--------------------------
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+
+
+
+
+
+
+
+
+
+
