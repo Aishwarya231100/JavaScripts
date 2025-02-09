@@ -12,7 +12,7 @@ function sayMyName(){
 // sayMyName() ------is executer    
 
 // function addTwoNumbers(number1, number2) //number1 and number2 is parametres
-{
+//{
 
 //     console.log(number1 + number2); // the output is print as 8 and Result : Undifined
 // }
